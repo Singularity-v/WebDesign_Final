@@ -1,0 +1,170 @@
+html{
+    width: 100%;
+    height: auto;
+}
+
+*{
+    padding:0 ;
+    margin:0 ;
+}
+body{
+    color: #434492;
+    font-family: 'Century Gothic';
+
+}
+
+/* word */
+.word{
+    width:94%;
+    height:87%;
+    padding-left: 3vw;
+    padding-top: 3vw;
+    position: absolute;
+
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.row{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+.square{
+    background-color: #FFD729;
+    width: 1vw;
+    height: 1vw;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+.right{
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    left: 26%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border: #434492 2px solid;
+    box-shadow: 7px 7px #FFD729;
+    
+}
+.title{
+
+    font-family: Perpetua;
+    font-weight: 600;
+    font-size: 8.7vw;
+}
+.text{
+
+    font-family: 'Century Gothic';
+    line-height: 2vw;
+}
+.small_decoration{
+    display: flex;
+    flex: 1;
+    width: 12%;
+    height: 100%;
+
+}
+.line{
+    width: 2vw;
+    height: 0.1vw;
+    background-color: #FFD729;
+}
+#arrow a {
+    background: url("../img/next.png");/*預設顯示圖片*/
+    display: flex;
+    background-repeat: no-repeat; 
+    background-size: 170px,50px;
+    height: 50px;/*圖片高度*/
+    width: 170px;/*圖片寬度*/
+}
+#arrow a:hover {
+    background: url("../img/next_hover.png"); /*滑鼠移過顯示圖片*/
+    background-repeat: no-repeat;
+    background-size: 170px,50px;
+    height: 50px;/*圖片高度*/
+    width: 170px;/*圖片寬度*/
+}
+
+/* icon */
+.contact{
+    position: flex;
+    display: flex;
+    flex-direction: column;
+}
+#fb_top a {
+    background: url("../img/Facebook_hovor.png");/*預設顯示圖片*/
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 14px,14px;
+    height: 14px;/*圖片高度*/
+    width: 14px;/*圖片寬度*/
+}
+#fb_top a:hover {
+    background: url("../img/Facebook_cover.png"); /*滑鼠移過顯示圖片*/
+    background-repeat: no-repeat;
+}
+#ig_top a {
+
+    background: url("../img/Instergram_hovor.png");/*預設顯示圖片*/
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 14px,14px;
+    height: 14px;/*圖片高度*/
+    width: 14px;/*圖片寬度*/
+}
+#ig_top a:hover {
+    background: url("../img/Instergram_cover.png"); /*滑鼠移過顯示圖片*/
+    background-repeat: no-repeat;
+}
+#tw_top a {
+
+    background: url("../img/Twitter_hovor.png");/*預設顯示圖片*/
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 14px,14px;
+    height: 14px;/*圖片高度*/
+    width: 14px;/*圖片寬度*/
+}
+#tw_top a:hover {
+    background: url("../img/Twitter_cover.png"); /*滑鼠移過顯示圖片*/
+    background-repeat: no-repeat;
+}
+#pin_top a {
+
+    background: url("../img/Pinterest_hovor.png");/*預設顯示圖片*/
+    display: flex;
+    background-repeat: no-repeat;
+    font-size: 0; 
+    background-size: 14px,14px;
+    height: 14px;/*圖片高度*/
+    width: 14px;/*圖片寬度*/
+}
+#pin_top a:hover {
+    background: url("../img/Pinterest_cover.png"); /*滑鼠移過顯示圖片*/
+    background-repeat: no-repeat;
+}
+.icon{
+    margin: 0.5vw 0 0.5vw 0;
+}
+
+/* bg */
+.bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+}
